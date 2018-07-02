@@ -1,0 +1,31 @@
+html, body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    height:100%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+}
+
+blockquote{
+    border-left: 0 dashed;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 0 80px;
+    position: relative;
+}
+
+blockquote:after{
+    border-left: 1px dashed;
+    content: "";
+    height: 75%;
+    left: 0;
+    position: absolute;
+    top: 15%;
+    width: 1px;
+}
+

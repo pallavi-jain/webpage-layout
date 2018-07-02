@@ -1,0 +1,45 @@
+#navBar ul{
+    margin-top: 30px;
+}
+
+#navBar ul li{
+    display: inline;
+    margin-right:20px;
+}
+
+
+#navBar ul li a{
+    text-decoration: none;
+    color: #6f1b2b;
+}
+
+.heroElem{
+    background-image: url('../images/banner.jpg') ;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  
+  font-size: 4em;
+  
+  color: #ffffff;
+  
+    /* animation-name: animate-hero;
+    animation-duration: 2s;
+    animation-iteration-count: 1; */
+}
+
+@keyframes animate-hero{
+    from {left: 0px; top: 0px;}
+    to {left: 10%; top: 10px;}
+}
+
+.hero-span{
+    color: #6f1b2b
+}
