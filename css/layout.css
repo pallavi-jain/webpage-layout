@@ -174,7 +174,13 @@ padding-left: 0px;
 .info-align{
     flex-direction: column;
 }
-/* .heroElem{
-    height:80vh;
-} */
+
+}
+
+@media (max-width: 890px) and (min-width: 601px){
+
+    .flex-container{
+        flex-direction: column;
+    }
+
 }
