@@ -150,6 +150,8 @@
 .info-align{
     display:flex;
 }
+
+/* Media Query */
 @media (max-width: 600px) {
 .flex-container{
     flex-direction: column;
@@ -182,5 +184,19 @@ padding-left: 0px;
     .flex-container{
         flex-direction: column;
     }
+    .info-align{
+        flex-direction: column;
+    }
 
+}
+
+@media (max-width: 380px){
+    #header_wrap{
+        flex-direction: column;
+    }
+
+    #logoBar{
+        width:100%;
+        text-align:center;
+    }
 }

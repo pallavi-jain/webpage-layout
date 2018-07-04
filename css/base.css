@@ -38,7 +38,7 @@ section img{
     width: 100%;
     height: auto;
 }
-
+/*Media Query*/
 @media (max-width: 600px) {
     blockquote{
         padding: 0px;
